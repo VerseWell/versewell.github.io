@@ -16,7 +16,7 @@ const HeroSection = () => {
                                 <h1 className="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
                                     VerseWell
                                 </h1>
-                                <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 font-light max-w-xl">
+                                <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 font-light">
                                     Discover and Share God&apos;s Word
                                 </p>
                             </ScrollAnimation>
