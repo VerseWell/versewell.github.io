@@ -8,7 +8,7 @@ const HeroSection = () => {
         <section className="bg-gradient-to-b from-blue-100/80 via-blue-50/50 to-white dark:from-gray-800 dark:via-gray-800/95 dark:to-gray-900">
             <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-100/30 to-transparent"></div>
-                <div className="max-w-6xl mx-auto px-8 md:px-12 pt-16 md:pt-20">
+                <div className="max-w-6xl mx-auto px-8 md:px-12 pt-24 md:pt-32">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
                         {/* Left Column: Text and Buttons */}
                         <div className="text-center md:text-left pb-8 md:pb-0 md:pl-8">
@@ -50,13 +50,23 @@ const HeroSection = () => {
                         <ScrollAnimation delay={0.2}>
                             <div className="relative w-full max-w-[380px] mx-auto md:ml-auto">
                                 <div className="relative rounded-t-2xl overflow-hidden shadow-2xl">
-                                    <div className="relative h-[480px] overflow-hidden">
+                                    <div className="relative h-[530px] overflow-hidden">
+                                        {/* Light mode image */}
                                         <Image
-                                            src="/images/list-dark.png"
+                                            src="/images/hero-light.png"
                                             width={600}
                                             height={1080}
                                             alt="VerseWell App Screenshot"
-                                            className="w-full absolute top-0 left-0"
+                                            className="w-full absolute top-0 left-0 dark:opacity-0 transition-opacity duration-300"
+                                            priority
+                                        />
+                                        {/* Dark mode image */}
+                                        <Image
+                                            src="/images/hero-dark.png"
+                                            width={600}
+                                            height={1080}
+                                            alt="VerseWell App Screenshot"
+                                            className="w-full absolute top-0 left-0 opacity-0 dark:opacity-100 transition-opacity duration-300"
                                             priority
                                         />
                                     </div>
