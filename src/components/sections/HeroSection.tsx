@@ -8,6 +8,17 @@ const HeroSection = () => {
         <section className="bg-gradient-to-b from-blue-100/80 via-blue-50/50 to-white dark:from-gray-800 dark:via-gray-800/95 dark:to-gray-900">
             <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-100/30 to-transparent"></div>
+                {/* GitHub Link */}
+                <div className="absolute top-4 right-8 z-20">
+                    <a
+                        href="https://github.com/versewell"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors duration-200 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white/80 dark:hover:bg-gray-800/80"
+                    >
+                        GitHub
+                    </a>
+                </div>
                 <div className="max-w-6xl mx-auto px-8 md:px-12 pt-24 md:pt-32">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
                         {/* Left Column: Text and Buttons */}
