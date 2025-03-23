@@ -78,9 +78,9 @@ export default function TranslationInfoPage() {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Source Code Availability</h2>
                 <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
                     <p className="mb-4 text-gray-800 dark:text-gray-200">
-                        For transparency and review purposes, you can access our modified version of the WEB translation
-                        that includes all the versification changes and adaptations mentioned above. The complete modified
-                        Bible translation data is available in our public GitHub repository at:
+                        For transparency and review purposes, you can review the differences between the original WEB translation
+                        and our modified version that includes all the versification changes and adaptations mentioned above.
+                        The complete diff showing all modifications is available in our public GitHub repository at:
                     </p>
                     <a
                         href="https://github.com/VerseWell/BibleTranslation/pull/1/files"
@@ -94,4 +94,4 @@ export default function TranslationInfoPage() {
             </section>
         </div>
     );
-} 
+}
