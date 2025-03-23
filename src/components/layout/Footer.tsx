@@ -15,6 +15,12 @@ const Footer = () => {
                     {/* Footer Links */}
                     <nav className="flex flex-wrap justify-center gap-6">
                         <a
+                            href="/translation"
+                            className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
+                        >
+                            Translation Info
+                        </a>
+                        <a
                             href="/privacy"
                             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                         >
