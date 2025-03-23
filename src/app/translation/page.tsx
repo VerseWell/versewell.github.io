@@ -38,7 +38,7 @@ export default function TranslationInfoPage() {
                 </div>
             </section>
 
-            <section id="versification-changes" className="mb-8">
+            <section id="translation-modifications" className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Translation Modifications</h2>
                 <p className="mb-4 text-gray-800 dark:text-gray-200">
                     To maintain compatibility with common Bible software and apps, we&apos;ve aligned the verse numbering with
