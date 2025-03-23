@@ -49,8 +49,8 @@ export default function TranslationInfoPage() {
                 <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg mb-6">
                     <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Verse Rearrangements</h3>
                     <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
-                        <li>Moved Romans 14:24-26 to Romans 16:25-27 (after removing the original empty verse at Romans 16:25)</li>
-                        <li>Split 3 John 1:14 into two verses to match traditional versification:
+                        <li>Moved <a href="https://www.biblegateway.com/passage/?search=Romans%2014%3A24-26&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Romans 14:24-26</a> to <a href="https://www.biblegateway.com/passage/?search=Romans%2016%3A25-27&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Romans 16:25-27</a> (after removing the original empty verse at <a href="https://www.biblegateway.com/passage/?search=Romans%2016%3A25&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Romans 16:25</a>)</li>
+                        <li>Split <a href="https://www.biblegateway.com/passage/?search=3John%201%3A14-15&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">3 John 1:14</a> into two verses to match traditional versification:
                             <ul className="list-disc pl-6 mt-2">
                                 <li>1:14: &quot;but I hope to see you soon. Then we will speak face to face.&quot;</li>
                                 <li>1:15: &quot;Peace be to you. The friends greet you. Greet the friends by name.&quot;</li>
@@ -60,16 +60,16 @@ export default function TranslationInfoPage() {
                 </div>
 
                 <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
-                    <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Added Bracketed Verses</h3>
+                    <h3 className="text-xl font-semibold mb-3 text-gray-900 dark:text-white">Verses from WEB Footnotes Added in Brackets</h3>
                     <p className="mb-3 text-gray-800 dark:text-gray-200">
-                        The following verses, which are traditionally included in many translations but were empty in WEB2020,
-                        have been added with bracketed text to match NASB 1995:
+                        The following verses were mentioned in WEB translation footnotes but not included in the main text.
+                        We&apos;ve added them in brackets to improve search results and maintain compatibility with other translations:
                     </p>
                     <ul className="list-disc pl-6 space-y-2 text-gray-800 dark:text-gray-200">
-                        <li>Luke 17:36: &quot;[Two will be in the field: the one taken, and the other left.]&quot;</li>
-                        <li>Acts 8:37: &quot;[If you believe with all your heart, you may. He answered, I believe that Jesus Christ is the Son of God.]&quot;</li>
-                        <li>Acts 15:34: &quot;[But it seemed good to Silas to stay there.]&quot;</li>
-                        <li>Acts 24:7: &quot;[but the commanding officer, Lysias, came by and with great violence took him out of our hands,]&quot;</li>
+                        <li><a href="https://www.biblegateway.com/passage/?search=Luke%2017%3A36&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Luke 17:36</a>: &quot;[Two will be in the field: the one taken, and the other left.]&quot;</li>
+                        <li><a href="https://www.biblegateway.com/passage/?search=Acts%208%3A37&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Acts 8:37</a>: &quot;[Philip said, &quot;If you believe with all your heart, you may. He answered, I believe that Jesus Christ is the Son of God.&quot;]&quot;</li>
+                        <li><a href="https://www.biblegateway.com/passage/?search=Acts%2015%3A34&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Acts 15:34</a>: &quot;[But it seemed good to Silas to stay there.]&quot;</li>
+                        <li><a href="https://www.biblegateway.com/passage/?search=Acts%2024%3A7&version=WEB,NASB1995" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300">Acts 24:7</a>: &quot;[but the commanding officer, Lysias, came by and with great violence took him out of our hands,]&quot;</li>
                     </ul>
                 </div>
             </section>
