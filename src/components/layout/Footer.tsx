@@ -15,10 +15,10 @@ const Footer = () => {
                     {/* Footer Links */}
                     <nav className="flex flex-wrap justify-center gap-6">
                         <a
-                            href="/translation"
+                            href="/terms"
                             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                         >
-                            Translation Info
+                            Terms of Service
                         </a>
                         <a
                             href="/privacy"
@@ -27,10 +27,10 @@ const Footer = () => {
                             Privacy Policy
                         </a>
                         <a
-                            href="/terms"
+                            href="/translation"
                             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                         >
-                            Terms of Service
+                            Translation Info
                         </a>
                     </nav>
                 </div>
