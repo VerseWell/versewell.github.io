@@ -39,7 +39,7 @@ export default function TranslationInfoPage() {
             </section>
 
             <section id="versification-changes" className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Versification Changes</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Translation Modifications</h2>
                 <p className="mb-4 text-gray-800 dark:text-gray-200">
                     To maintain compatibility with common Bible software and apps, we&apos;ve aligned the verse numbering with
                     NASB 1995 versification while preserving the original WEB text content. The following modifications
@@ -75,7 +75,7 @@ export default function TranslationInfoPage() {
             </section>
 
             <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Source Code Availability</h2>
+                <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Translation Modifications Review</h2>
                 <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
                     <p className="mb-4 text-gray-800 dark:text-gray-200">
                         For transparency and review purposes, you can review the differences between the original WEB translation
