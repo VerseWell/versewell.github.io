@@ -73,6 +73,25 @@ export default function TranslationInfoPage() {
                     </ul>
                 </div>
             </section>
+
+            <section className="mb-8">
+                <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Source Code Availability</h2>
+                <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+                    <p className="mb-4 text-gray-800 dark:text-gray-200">
+                        For transparency and review purposes, you can access our modified version of the WEB translation
+                        that includes all the versification changes and adaptations mentioned above. The complete modified
+                        Bible translation data is available in our public GitHub repository at:
+                    </p>
+                    <a
+                        href="https://github.com/VerseWell/biblekit-kmp/blob/main/androidApp/src/main/assets/bible.json"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 break-all"
+                    >
+                        https://github.com/VerseWell/biblekit-kmp/blob/main/androidApp/src/main/assets/bible.json
+                    </a>
+                </div>
+            </section>
         </div>
     );
 } 
