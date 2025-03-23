@@ -18,7 +18,7 @@ const Footer = () => {
                             href="/translation"
                             className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                         >
-                            Translation
+                            Translation Info
                         </a>
                         <a
                             href="/privacy"

@@ -12,7 +12,7 @@ export default function TranslationInfoPage() {
             <section className="mb-8">
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Translation Overview</h2>
                 <p className="mb-4 text-gray-800 dark:text-gray-200">
-                    This application uses the World English Bible 2020 (WEB2020) translation, which is the Protestant version
+                    This application uses the World English Bible (WEB) translation, which is the Protestant version
                     with US language. The translation has been carefully adapted to maintain compatibility with other widely-used
                     translations such as NASB1995 and ESV.
                 </p>
@@ -25,13 +25,13 @@ export default function TranslationInfoPage() {
                         To provide the most comprehensive search results, our application searches across three translations:
                     </p>
                     <ul className="list-disc pl-6 space-y-2 mb-4 text-gray-800 dark:text-gray-200">
-                        <li>World English Bible 2020 (WEB)</li>
+                        <li>World English Bible (WEB)</li>
                         <li>New American Standard Bible 1995 (NASB1995)</li>
                         <li>English Standard Version (ESV)</li>
                     </ul>
                     <p className="text-gray-800 dark:text-gray-200">
                         While the search functionality checks all three translations to find relevant verses,
-                        the displayed results will always show the WEB2020 version of the matched verses.
+                        the displayed results will always show the WEB version of the matched verses.
                         This approach ensures both comprehensive search coverage and consistent presentation
                         of the scripture text.
                     </p>
@@ -42,7 +42,7 @@ export default function TranslationInfoPage() {
                 <h2 className="text-2xl font-semibold mb-4 text-gray-900 dark:text-white">Versification Changes</h2>
                 <p className="mb-4 text-gray-800 dark:text-gray-200">
                     To maintain compatibility with common Bible software and apps, we&apos;ve aligned the verse numbering with
-                    NASB 1995 versification while preserving the original WEB2020 text content. The following modifications
+                    NASB 1995 versification while preserving the original WEB text content. The following modifications
                     have been implemented:
                 </p>
 
