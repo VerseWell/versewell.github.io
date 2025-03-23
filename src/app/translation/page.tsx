@@ -83,12 +83,12 @@ export default function TranslationInfoPage() {
                         Bible translation data is available in our public GitHub repository at:
                     </p>
                     <a
-                        href="https://github.com/VerseWell/WEBTranslation/pull/1/files"
+                        href="https://github.com/VerseWell/BibleTranslation/pull/1/files"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 break-all"
                     >
-                        https://github.com/VerseWell/WEBTranslation/pull/1/files
+                        https://github.com/VerseWell/BibleTranslation/pull/1/files
                     </a>
                 </div>
             </section>
